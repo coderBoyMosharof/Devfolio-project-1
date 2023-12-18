@@ -1,0 +1,94 @@
+/* Tablet Device Brekpoint */
+@media screen and (max-width: 992px) {
+   nav{
+    display: none;
+   }
+    .menu_bar{
+        display: inline-block;
+    }
+    .service_box{
+        flex-basis: 49%;
+    }
+
+   .count_box{
+    flex-basis: 50%;
+   }
+   .count_box p{
+    margin-bottom: 40px;
+}
+ 
+ .portfolio_box{
+    flex-basis: 49%;
+ }
+
+}
+/* Mobile Device Brekpoint */
+@media screen and (max-width: 768px) {
+   nav{
+    display: none;
+   }
+    .menu_bar{
+        display: inline-block;
+    }
+
+    .banner_title{
+        text-align: center;
+        font-size: 30px;
+       
+    }
+    .banner_subtitle{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .about_info{
+        flex-direction: column;
+        
+    }
+    .about_info .about_details{
+        margin-top: 30px;
+    }
+    .inner-about {
+        flex-direction: column;
+    }
+  .skills_container{
+    margin-top: 30px;
+  }
+    .about-title{
+        margin-top: 30px;
+    }
+
+    .service_box{
+        flex-basis: 100%;
+    }
+    .count_box{
+        flex-basis: 100%;
+        
+    }
+    .count_box p{
+        margin-bottom: 40px;
+    }
+    .portfolio_box{
+        flex-basis: 100%;
+    }
+    .testomonial_content .img img{
+        width: 120px;
+    }
+    .inner_bloge{
+        flex-direction: column;
+    }
+.inner_contact{
+    flex-direction: column;
+}
+form input{
+    display: block;
+    width: 395px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px ;
+}
+form textarea{
+    width: 395px;
+    padding: 10px;
+}
+}
